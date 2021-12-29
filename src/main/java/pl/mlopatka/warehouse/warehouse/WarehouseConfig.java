@@ -15,6 +15,7 @@ public class WarehouseConfig {
 
     @PostConstruct
     void initDb(){
+        repository.deleteAll();
         repository.save(new Warehouse("1", 50, 47));
         repository.save(new Warehouse("2", 50, 50));
         repository.save(new Warehouse("3", 50, 23));
