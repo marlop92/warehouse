@@ -2,8 +2,8 @@ package pl.mlopatka.warehouse.warehouse;
 
 import pl.mlopatka.warehouse.order.Order;
 
-public interface WarehouseRepository {
+public interface WarehouseService {
 
-    long storeInWarehouse(Order order);
+    String storeInWarehouse(Order order);
 
 }
