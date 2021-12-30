@@ -1,10 +1,8 @@
-package pl.mlopatka.warehouse.warehouse.entity;
+package pl.mlopatka.warehouse.warehouse;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import pl.mlopatka.warehouse.order.Order;
-import pl.mlopatka.warehouse.warehouse.NoAvailableWarehouseException;
-import pl.mlopatka.warehouse.warehouse.WarehouseService;
 
 @Service
 @RequiredArgsConstructor

@@ -2,8 +2,6 @@ package pl.mlopatka.warehouse.warehouse;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
-import pl.mlopatka.warehouse.warehouse.entity.Warehouse;
-import pl.mlopatka.warehouse.warehouse.entity.WarehouseRepository;
 
 import javax.annotation.PostConstruct;
 

@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 import pl.mlopatka.warehouse.order.Order;
-import pl.mlopatka.warehouse.warehouse.entity.WarehouseRepository;
 
 @Service
 @RequiredArgsConstructor

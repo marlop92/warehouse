@@ -1,4 +1,4 @@
-package pl.mlopatka.warehouse.warehouse.entity;
+package pl.mlopatka.warehouse.warehouse;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

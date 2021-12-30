@@ -8,9 +8,6 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import pl.mlopatka.warehouse.order.Order;
-import pl.mlopatka.warehouse.warehouse.entity.Warehouse;
-import pl.mlopatka.warehouse.warehouse.entity.WarehouseRepository;
-import pl.mlopatka.warehouse.warehouse.entity.WarehouseServiceImpl;
 
 import java.util.List;
 
